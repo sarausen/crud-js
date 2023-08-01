@@ -1,0 +1,113 @@
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <!-- This file has been downloaded from Bootsnipp.com. Enjoy! -->
+  <title>CRUD - Javascript</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet">
+  <style type="text/css">
+    
+  </style>
+
+</head>
+<body>
+
+  <div class="container">
+   <div class="row">
+
+
+    <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" type="text/css" rel="stylesheet">
+
+
+
+    <!-- FORM  -->	    
+    <div class="col-md-12">
+
+     <form class="form-horizontal" id="form-edit-client">
+      <fieldset>
+
+        <!-- Form Name -->
+        <legend>Client</legend>
+
+        <!-- Text input-->
+        <div class="form-group">
+          <label class="col-md-4 control-label" for="client-name">Name</label>  
+          <div class="col-md-4">
+            <input id="client-name" name="client-name" type="text" placeholder="your client's name" class="form-control input-md">
+            <span class="help-block">Full name of your customer</span>  
+          </div>
+        </div>
+
+        <!-- Prepended text-->
+        <div class="form-group">
+          <label class="col-md-4 control-label" for="client-email">Email</label>
+          <div class="col-md-4">
+            <div class="input-group">
+              <span class="input-group-addon">@</span>
+              <input id="client-email" name="client-email" class="form-control" placeholder="yourname@yourdomain.com" type="text">
+            </div>
+            <p class="help-block">Email of your client</p>
+          </div>
+        </div>
+
+
+
+
+
+        <!-- Button -->
+        
+
+      </fieldset>
+    </form>
+    <div class="form-group">
+          <label class="col-md-4 control-label" for="btn-save"></label>
+          <div class="col-md-4" id="saveupdate">
+            <button id="btn-save" name="btn-save" class="btn btn-success" onclick="addClient()">Save</button>
+          </div>
+        </div>
+
+  </div> 
+
+
+
+
+  <!-- LIST -->
+  <div class=col-md-12>
+
+       <legend>List of clients</legend>
+
+     
+      <table class="table table-bordered table-condensed table-hover">
+        <thead>
+          <tr>
+            <td>Name</td>
+            <th>Email</th>
+            <th>Actions</th>
+          </tr>
+
+        </thead>
+        <tbody id="form-list-client-body">
+
+        </tbody>
+      </table>
+    
+    
+  </div>
+
+
+  <br> 
+
+  <!-- view -->
+
+
+
+
+</div>
+</div>
+
+<script src="main.js">
+ 
+</script>
+</body>
+</html>
+
